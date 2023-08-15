@@ -1,0 +1,116 @@
+* {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+@font-face {
+  font-family: maven;
+  src: url(../fonts/MavenPro-VariableFont_wght.ttf);
+}
+header {
+  background-color: black;
+  height: 700px;
+}
+
+header p {
+  color: #949494;
+  padding: 1vh 1vh;
+  margin: 0 auto 10vh auto;
+  font-size: 1.3rem;
+}
+
+header h1 {
+  margin: 0 auto 3vh auto;
+  color: white;
+  font-family: "Times New Roman", Times, serif;
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 100;
+}
+
+header div {
+  width: 300px;
+  background-image: linear-gradient(42deg, #ff00ff, #2727f0, #48cefa);
+  margin: 0 auto 0vh auto;
+  border-radius: 10px;
+}
+
+header div:hover {
+  background-image: linear-gradient(42deg, #48cefa, #2727f0, #ff00ff);
+}
+
+header div p {
+  color: white;
+  font-family: "Times New Roman", Times, serif;
+  text-align: center;
+  font-size: 3rem;
+}
+
+header div p:last-of-type {
+  color: white;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  text-align: center;
+  font-size: 1rem;
+}
+
+header nav {
+  display: inline-block;
+  position: relative;
+  width: 20vw;
+  left: 75vw;
+}
+
+header nav ul li {
+  color: #8c8c8c;
+  text-align: right;
+  padding: 1vh 3vw;
+}
+
+header nav ul li::marker {
+  content: " ";
+}
+
+header nav ul li:hover {
+  text-shadow: 0px 0px 5px white;
+}
+
+section {
+  margin: 200px 50px 0 50px;
+}
+
+.projects {
+  font-size: 6rem;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 900;
+  color: rgba(227, 226, 226, 0.278);
+  margin: 0 0 -80px 0;
+}
+section h2 {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 3rem;
+}
+
+section p {
+  font-family: maven;
+  width: 50vw;
+  margin: 0 0 100px 0;
+}
+
+section article {
+  width: 50vw;
+  margin: 0 auto;
+}
+section article div img {
+  width: 100%;
+}
+
+h3 {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 2rem;
+}
+
+.text {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 1.3rem;
+}

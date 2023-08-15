@@ -1,0 +1,75 @@
+:root {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 62.5%;
+}
+
+h3 {
+  text-decoration: underline;
+  font-size: 2.5rem;
+}
+
+/* ! Absolute Einheit */
+
+.box {
+  width: 200px;
+  height: 100px;
+  background-color: pink;
+}
+
+/* ! Relative Einheit */
+/* passt sich immer dem übergeordnetem Container an */
+
+.container {
+  width: 50%;
+  /* height: 100px; */
+  background-color: deeppink;
+}
+
+div img {
+  width: 50%;
+  display: block;
+}
+
+/* ! Viewport Einheit */
+/* bezieht sich auf die sichtbare Größe des Browsers */
+
+.box2 {
+  width: 50vw;
+  height: 50vh;
+  background-color: palevioletred;
+}
+
+/* ! em und rem */
+
+p .normal {
+  font-size: 16px;
+}
+
+.größer {
+  font-size: 1.5em;
+}
+
+.groß {
+  font-size: 2rem;
+}
+
+/* ! Clamp */
+
+section div {
+  width: 30%;
+  padding: 10px;
+  background-color: linen;
+}
+
+.title {
+  color: brown;
+  font-size: clamp(2rem, 5vw, 5rem);
+}
+
+.text {
+  font-size: clamp(1rem, 3vw, 3rem);
+}
+
+span {
+  background-color: rosybrown;
+}

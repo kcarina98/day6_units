@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=h1, initial-scale=1.0" />
+    <title>Document</title>
+
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <h1>units</h1>
+
+    <!-- ! Absolute Einheit -->
+    <div>
+      <h3>Absolute Einheit (px)</h3>
+      <div class="box"></div>
+      <ul>
+        <li>Vorteile</li>
+        <ul>
+          <li>wenn festes Layout benötigt wird</li>
+        </ul>
+      </ul>
+      <ul>
+        <li>Nachteile</li>
+        <ul>
+          <li>barrierefreiheit</li>
+          <li>nicht responsive</li>
+        </ul>
+      </ul>
+    </div>
+
+    <!-- ! Relative Einheit -->
+    <div>
+      <h3>Relative Einheit (%)</h3>
+      <div class="container">
+        <img
+          src="data:image/png;base64,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"
+          alt="Bild"
+        />
+      </div>
+    </div>
+
+    <!-- ! Viewport-Einheit -->
+    <div>
+      <h3>Viewport-Einheit (vh & vw)</h3>
+
+      <div class="box2"></div>
+    </div>
+
+    <!-- ! Relative Einheit -->
+    <div>
+      <h3>Relative Einheit (em & rem)</h3>
+      <p class="normal">Normal</p>
+      <p class="größer">Größer</p>
+      <p class="groß">Groß</p>
+    </div>
+
+    <!-- ! Clamp () -->
+    <section>
+      <div>
+        <h3 class="title">Clamp Einheit</h3>
+        <p class="text">
+          <span
+            >Ich bin ein Text, ich schrumpfe bzw skaliere bzw bis zu einem
+            min/max Wert.</span
+          >
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quia sit
+          pariatur cum enim consectetur eos quibusdam obcaecati maiores dolorum,
+          tempora ratione soluta praesentium unde accusantium laboriosam
+          quisquam optio, voluptatem quo possimus commodi minima deleniti ipsum
+          cumque reprehenderit. A repellendus reprehenderit quasi quos? Ab
+          quaerat incidunt autem, ipsa praesentium non ipsum delectus, nisi
+          voluptatem maxime odio consectetur voluptas at corrupti ipsam nulla,
+          esse laudantium aliquid minus nam ducimus sint tempora. Facilis
+          eligendi et itaque ullam temporibus nostrum, eum incidunt? Facilis
+          nemo dolorem ratione possimus nostrum vel molestias nihil ea ex quia
+          sunt doloribus corrupti, eaque perspiciatis commodi at perferendis
+          tenetur natus.
+        </p>
+      </div>
+    </section>
+  </body>
+</html>

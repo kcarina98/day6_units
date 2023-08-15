@@ -1,0 +1,17 @@
+body {
+  background-image: url("https://images.unsplash.com/photo-1691466517945-0f9cc5b47539?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwzNXx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=60");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 40px 60px;
+  margin: 100px auto;
+  text-align: center;
+  width: 50%;
+  background-color: rgba(53, 68, 51, 0.539);
+  color: white;
+  font-size: clamp(1rem, 5vw, 3rem);
+}

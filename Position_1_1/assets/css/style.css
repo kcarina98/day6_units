@@ -1,0 +1,31 @@
+@font-face {
+  font-family: poppins;
+  src: url(../font/Poppins-Light.ttf);
+}
+
+body {
+  height: 100vh;
+  background-image: url("https://images.unsplash.com/photo-1687773693701-1ee5293596ff?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1171&q=80");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+div {
+  width: 200px;
+  position: relative;
+  left: 80%;
+  top: 25%;
+}
+
+p:first-of-type {
+  font-family: poppins;
+  font-size: 4rem;
+  color: white;
+}
+
+p:last-of-type {
+  font-family: poppins;
+  font-size: 2rem;
+  color: white;
+}
